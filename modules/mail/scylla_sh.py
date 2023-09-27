@@ -27,5 +27,3 @@ def scylla_search(email):
             return None
     except requests.exceptions.ConnectionError:
         return None
-
-# By Lui#6166 from Prism Intelligence Group
